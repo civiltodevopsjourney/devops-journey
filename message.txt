@@ -10,3 +10,8 @@ CREATE TABLE messages (
 );
 insert into [TABLE NAME]messages [COLUME NAME](message) values ("lol");
 select*from messages;
+
+
+#Kill then data base then How to retake data base
+docker run -d -v $(pwd):/var/lib/mysql -e MYSQL_ROOT_PASSWORD=test@123 mysql:5.7
+#Use this command.

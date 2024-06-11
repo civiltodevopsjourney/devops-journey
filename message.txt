@@ -1,3 +1,5 @@
+# insert a databases
+ 
 docke exec (con.ID) bash
 (Ex:mysql) -u root -p
 pass:(Ex:test@123)

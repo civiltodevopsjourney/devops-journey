@@ -10,7 +10,8 @@ CREATE TABLE messages (
     id INT AUTO_INCREMENT PRIMARY KEY,
     message TEXT
 );
-insert into [TABLE NAME]messages [COLUME NAME](message) values ("lol");
+# insert into [TABLE NAME]messages [COLUME NAME](message) values ("lol");
+EX:- insert into messages (message) values ("lol");
 select*from messages;
 
 
